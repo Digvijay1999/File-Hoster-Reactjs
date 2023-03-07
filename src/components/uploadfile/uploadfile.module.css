@@ -1,0 +1,79 @@
+:root {
+    background-color: var(--clr-neutral-pale-red);
+}
+
+.heading {
+    background-color: var(--clr-primary-red);
+    font-size: var(--fs-400);
+}
+
+.file_selector_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-neutral-pale-red);
+}
+
+.card {
+    min-width: 300px;
+    max-width: 600px;
+    width: 500px;
+    height: 60vh;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.progress_bar {
+    width: 300px;
+    height: 10px;
+    background-color: var(--clr-primary-blue);
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    margin-top: 10px;
+    width: 300px;
+    height: 30vh;
+    border-style: dotted;
+    color: black;
+    border-spacing: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    font-size: var(--fs-500);
+    font-weight: var(--fw-semi-bold);
+    padding: 10px;
+}
+
+.upload_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.image_container {
+    width: 70px;
+    height: 70px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .image_container {
+        width: 100px;
+        height: 100px;
+    }
+}
